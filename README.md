@@ -1,5 +1,5 @@
 # objetivo-del-squad
-## Inicio
+*Inicio: Objetivo del squad*
 ### Crear variables
     - puntosSquad
     - maxPuntos
@@ -13,3 +13,4 @@
     
 ### Mostrar resultados
     - En la variable de salida resultado, mostrar mensaje
+*Fin*    
