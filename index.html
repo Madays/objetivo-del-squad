@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	    <meta name = "description" content = "Descripcion de la pagina">
+	    <title>Objetivo del squad</title>
+	    <link rel="stylesheet" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" href="css/main.css">
+	    <link rel="shortcut icon" href="favicon.ico">
+	    <script src="main.js"></script>
+    </head>
+    
+    <body class="container">
+      <div class="row">
+       <div class="col-xs-8 col-xs-offset-2">
+        <h1 class="text-center text-primary">Calculando porcentaje de squad</h1>
+        <br>
+        <div class="row">
+            <div class="col-sm-8">
+                <h4 class="text-primary text-center">Ingrese datos</h4>
+                <input type="text" id="puntosSquad" placeholder="Puntos Squad">
+                <input type="text" id="maxPuntos" placeholder="Puntos maximo">
+            </div>
+            
+            <div class="col-sm-4">
+                <br>
+                <button class="btn btn-primary" onclick="alcanzoPromedio(puntosSquad, maxPuntos)">Resultado</button>    
+            </div>
+        </div>                              
+        <div id = "resultado" class="text-center text-primary"></div>
+       </div>      
+       </div>
+      </div>
+    </body>
+</html>    
