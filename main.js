@@ -1,3 +1,4 @@
+//Funcion del boton
 function alcanzoPromedio(puntosSquad, maxPuntos) {
     var puntosSquad = document.getElementById("puntosSquad");
     var maxPuntos = document.getElementById("maxPuntos");
